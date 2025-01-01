@@ -1,2 +1,1 @@
-# CP
-A place to put the competitive programming code sources.
+### A place to put the competitive programming code sources.
