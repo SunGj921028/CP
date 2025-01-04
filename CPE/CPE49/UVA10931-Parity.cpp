@@ -2,16 +2,6 @@
 
 using namespace std;
 
-int cntOneInBinary(int n){
-    int cnt = 0;
-    while(n > 0){
-        int remainder = n % 2;
-        if(remainder == 1){ cnt++;}
-        n = n / 2;
-    }
-    return cnt;
-}
-
 int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
