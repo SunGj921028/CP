@@ -31,3 +31,32 @@ int main(){
 }
 
 // Correct answer
+// int main()
+// {
+//     // 定義每個月的天數
+//     int daysInMonth[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+//     // 定義星期的名稱
+//     string daysOfWeek[] = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+
+//     int n;
+//     cin >> n;
+//     while (n--)
+//     {
+
+//         int month, day;
+//         while (cin >> month >> day)
+//         {
+//             // 計算從1月1日到當前日期的總天數
+//             int totalDays = day - 1; // 當前月內的天數
+//             for (int i = 0; i < month - 1; i++)
+//             {
+//                 totalDays += daysInMonth[i]; // 加上之前每個月的天數
+//             }
+
+//             // 1月1日是星期六，所以可以直接用 totalDays 取模 7 得到星期幾
+//             cout << daysOfWeek[totalDays % 7] << endl;
+//         }
+//     }
+//     return 0;
+// }
