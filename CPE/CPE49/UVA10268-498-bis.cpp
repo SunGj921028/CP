@@ -21,7 +21,7 @@ int main(){
         long long value = 0;
         int n = poly.size() - 1;
         int ex = n;
-        for(int i = 0 ;i < n && ex >= 0; i++, ex--){
+        for(int i = 0 ;i < n && ex > 0; i++, ex--){
             value += poly[i] * ex * (pow(x, ex - 1));
         }
         cout << value << "\n";
