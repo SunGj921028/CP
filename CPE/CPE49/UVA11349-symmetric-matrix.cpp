@@ -8,8 +8,6 @@ int main(){
 
     int t = 0;
     cin >> t;
-    string enter;
-    getline(cin, enter);
     for(int i = 1; i <= t; i++){
         char n;
         int N = 0;
